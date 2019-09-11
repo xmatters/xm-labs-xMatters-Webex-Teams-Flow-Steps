@@ -139,7 +139,7 @@ The WebEx Teams API documentation will help you understand the inputs and output
 Below is an example of an xMatters flow that you could build using these steps.
 
 <kbd>
-    <img src="/media/Sample-FLows.png">
+    <img src="/media/Sample-Flows.png">
 </kbd>
 <br><br>
 
