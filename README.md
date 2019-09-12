@@ -21,6 +21,11 @@ This xMatters communication plan contains 10 WebEx Teams Custom xMatters Flow De
 
 # Included Custom Steps
 
+<kbd>
+    <img src="/media/steps.png" width="650px">
+</kbd>
+<br><br>
+
 
 **MESSAGES API** [link](https://developer.webex.com/docs/api/v1/messages)
 
@@ -28,7 +33,7 @@ This xMatters communication plan contains 10 WebEx Teams Custom xMatters Flow De
 - List Messages (Must get Integration Access Token using __Get Token__ Flow step and provide __access_token__ as an input to this step) 
 
 
-**ROONS API** [link](https://developer.webex.com/docs/api/v1/rooms)
+**ROOMS API** [link](https://developer.webex.com/docs/api/v1/rooms)
 
 - Create a Room
 - Update a Room
