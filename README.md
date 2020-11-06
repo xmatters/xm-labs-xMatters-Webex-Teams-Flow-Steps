@@ -1,6 +1,6 @@
-# xMatters WebEx Teams Flow Steps
+# xMatters Webex Teams Flow Steps
 
-This xMatters communication plan contains 10 WebEx Teams Custom xMatters Flow Designer Steps.
+This xMatters communication plan contains 10 Webex Teams Custom xMatters Flow Designer Steps.
 
 <kbd>
   <img src="https://github.com/xmatters/xMatters-Labs/raw/master/media/disclaimer.png">
@@ -12,7 +12,7 @@ This xMatters communication plan contains 10 WebEx Teams Custom xMatters Flow De
 
 # Files
 
-- [WebEx Teams Flow Steps Communication Plan](WebExTeams.zip)
+- [WebexTeams.zip](WebexTeams.zip) - Flow Steps Workflow package
 
 # How it works
 
@@ -51,12 +51,12 @@ This xMatters communication plan contains 10 WebEx Teams Custom xMatters Flow De
 - Get Token (Gets the access token so you can use List Messages Flow Step) 
 
 
-# WebEx Teams Configuration
+# Webex Teams Configuration
 
 
-## Create a WebEx Teams Bot and Get Auth Token
+## Create a Webex Teams Bot and Get Auth Token
 
-[How to create a WebEx Teams Bot and Get an Access Token](https://developer.webex.com/docs/bots)
+[How to create a Webex Teams Bot and Get an Access Token](https://developer.webex.com/docs/bots)
 
 
 All flow steps in this communication plan will work with the Bot Access Token with the exception of:
@@ -67,16 +67,16 @@ All flow steps in this communication plan will work with the Bot Access Token wi
 
 A bot can only access messages sent to it directly. In group spaces, bots must be @mentioned to access the message. In 1-to-1 spaces, a bot has access to all messages from the user.
 
-If you want to use the Flow Step for __List Messages__ you will need to [Get WebEx Teams Integration Refresh Token](#get-webex-teams-integration-refresh-token)
+If you want to use the Flow Step for __List Messages__ you will need to [Get Webex Teams Integration Refresh Token](#get-webex-teams-integration-refresh-token)
 
 
-## Get WebEx Teams Integration Refresh Token
+## Get Webex Teams Integration Refresh Token
 
-To use the __List Messages__ Flow Step, you will need to get a WebEx Teams Integration Refresh Token.
+To use the __List Messages__ Flow Step, you will need to get a Webex Teams Integration Refresh Token.
 
-[How to Create a WebEx Teams Integration and get a Refresh Token](https://developer.webex.com/docs/integrations)
+[How to Create a Webex Teams Integration and get a Refresh Token](https://developer.webex.com/docs/integrations)
 
-After successfully setting up the WebEx Teams integration, you will have the following:
+After successfully setting up the Webex Teams integration, you will have the following:
 
 	- grant_type
 	- client_id
@@ -93,7 +93,7 @@ The __Get Token__ Flow step will get the __access_token__ required as an input t
 
 ## Import the xMatters Communication Plan
 
-1. Download the [WebEx Teams Communication Plan](WebExTeams.zip)
+1. Download the [Webex Teams Communication Plan](WebexTeams.zip)
 
 2. Follow instructions for [Importing a communication plan](https://help.xmatters.com/ondemand/xmodwelcome/communicationplanbuilder/exportcommplan.htm)
 
@@ -101,9 +101,9 @@ The __Get Token__ Flow step will get the __access_token__ required as an input t
 
 ## Set Usage Permissions on the Steps you would like to share
 
-1. On the Developer tab, click Edit beside the **WebEx Teams** communication plan and go to **Flows**.
+1. On the Developer tab, click Edit beside the **Webex Teams** communication plan and go to **Flows**.
 
-2. Click on **WebEx Teams Flow**.
+2. Click on **Webex Teams Flow**.
 
 3. Follow instructions for [Sharing a Custom Flow Step](https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/share-steps.htm)
 
@@ -111,15 +111,15 @@ The __Get Token__ Flow step will get the __access_token__ required as an input t
 
 ## Create xMatters Constant for __teams_bot_token__
 
-1. Go to WebEx Teams communication plan or whatever plan you want to configure this step, click __Edit__ and go to __Integration Builder__. 
+1. Go to Webex Teams communication plan or whatever plan you want to configure this step, click __Edit__ and go to __Integration Builder__. 
 
 2. Click __Edit Constants__.
 
 3. Add constant with the name __teams_bot_token__
 
-4. Set the constant value to your WebEx Teams Bot Access Token.
+4. Set the constant value to your Webex Teams Bot Access Token.
 
-[How to create a WebEx Teams Bot and Get an Access Token](#create-a-webex-teams-bot-and-get-auth-token)
+[How to create a Webex Teams Bot and Get an Access Token](#create-a-webex-teams-bot-and-get-auth-token)
 
 
 <kbd>
@@ -129,14 +129,14 @@ The __Get Token__ Flow step will get the __access_token__ required as an input t
 
 
 
-## Use the WebEx Teams Flow Steps
+## Use the Webex Teams Flow Steps
 
-1. Drag the WebEx Teams step on the canvas and configure the step.
+1. Drag the Webex Teams step on the canvas and configure the step.
 
 [Get help using Flow designer](https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/flow-designer.htm)
 
-The WebEx Teams API documentation will help you understand the inputs and outputs for each step.
-[Get help with WebEx Teams API](https://developer.webex.com/docs/platform-introduction)
+The Webex Teams API documentation will help you understand the inputs and outputs for each step.
+[Get help with Webex Teams API](https://developer.webex.com/docs/platform-introduction)
 
 
 ## Sample Flow
@@ -154,8 +154,8 @@ Below is an example of an xMatters flow that you could build using these steps.
 
 [Get help using Flow designer](https://help.xmatters.com/ondemand/xmodwelcome/flowdesigner/flow-designer.htm)
 
-[Get help with WebEx Teams API](https://developer.webex.com/docs/platform-introduction)
+[Get help with Webex Teams API](https://developer.webex.com/docs/platform-introduction)
 
-[Get help with WebEx Teams Bot Creation](https://developer.webex.com/docs/bots)
+[Get help with Webex Teams Bot Creation](https://developer.webex.com/docs/bots)
 
-[Get help with WebEx Teams Integration](https://developer.webex.com/docs/integrations)
+[Get help with Webex Teams Integration](https://developer.webex.com/docs/integrations)
